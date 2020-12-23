@@ -1,0 +1,253 @@
+@font-face {
+   font-family: 'looser';
+   src: url("/etc/looser.ttf") format('truetype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family:'Nanum Gothic';
+  margin: auto auto;
+}
+
+body:before{
+  /* CSS feature for transparent background. */
+  background-image: url("../images/patternbg.jpg");
+  /* background-attachment: fixed; */
+  opacity: 0.3;
+  content: ' ';
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+nav {
+  /* good-looking for navigation bar */
+  align-items:center;
+  width:1903px;
+}
+
+header {
+  /* common header navigation section */
+  background-color:#fafafa;
+  display:inline-block;
+  width:1920px;
+  height:auto;
+  outline: 1px solid #cbcbcb;
+}
+
+header nav img {
+  /* logo image */
+  display:inline;
+  vertical-align: middle;
+  position:relative;
+}
+.navigation{
+  /* margin between navigation button(link)s */
+  margin: 15px 65px;
+  font-size: 25px;
+}
+
+.login{
+  /* margin between navigation button(link)s */
+  margin: 10px 10px;
+  font-size: 15px;
+}
+.logindiv{
+  text-align: right;
+  margin-top: 5px;
+  margin-right: 50px;
+}
+.headdiv{
+  margin-bottom: 25px;
+}
+a{
+  text-decoration-line: none;
+  color: #000000;
+}
+
+section {
+  font-size:20px;
+  margin:auto auto;
+}
+
+.articles {
+  display:table; /* https://stackoverflow.com/questions/49095440/width-fit-content-working-on-chrome-but-not-explorer */
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+.articles article{
+  /* articles on main section */
+  margin-left: 10px;
+  margin-right: 10px;
+  display:inline-flex;
+  background-color: rgb(255,255,255);
+  box-shadow: 5px 5px 2px 2px skyblue;
+  border-radius: 40px 40px / 40px 40px;
+}
+
+p {
+  width:fit-content;
+  margin:auto auto;
+}
+
+.section1 {
+  /* first slide */
+  width:1920px;
+  height:600px;
+  background-image:url("/images/section1.jpg");
+  background-size: cover;
+  background-color: rgb(241, 255, 234);
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.section2 {
+  /* second slide */
+  width:1920px;
+  height:800px;
+  background-image:url("/images/section2.jpg");
+  background-size:cover;
+  background-color: #a4f7df;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.section3{
+  /* third slide */
+  width:1920px;
+  height:1000px;
+  background-image:url("/images/section3.jpg");
+  background-size:cover;
+  background-color:#ffebc6;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+article#join-us div {
+  background-color:#FFFFFF;
+  display:table;
+  margin-left:auto;
+  margin-right: auto;
+  padding:25px;
+  box-shadow: 5px 5px 2px 2px skyblue;
+  border-radius: 40px 40px / 40px 40px;
+}
+
+.center-text {
+	text-align:center;
+}
+
+.title-text {
+  font-family:looser;
+  font-style:italic;
+  font-size: 70px;
+}
+
+.big-text {
+  font-size:45px;
+}
+
+.medium-text {
+  font-size:33px;
+}
+
+.small-text {
+  font-size:25px;
+}
+
+.fit-image {
+  width:50%;
+}
+
+.center-image img{
+  display:block;
+  margin:10px auto 10px auto;
+  /* top right bottom left */
+}
+
+table td {
+    font-family:'Hanna';
+}
+
+.table-border {
+  border:1px solid black;
+}
+
+.table-head td {
+  font-size: 30px;
+  height:100px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-box td {
+  text-align: center;
+  padding: 20px;
+}
+
+.box-250 td {
+  height: 250px;
+}
+
+.box-500 td {
+  height:500px;
+}
+
+.table-box img {
+  transition: all 0.3s ease-out;
+}
+
+.small-image img{
+  width:200px;
+  height:200px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.medium-image img{
+  width:400px;
+  height: 400px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.hover-scaleup img {
+  transform:scale(1, 1);
+}
+
+.hover-scaleup img:hover {
+  transform:scale(1.2, 1.2);
+}
+
+.hover-scaleup img:active {
+  transform:scale(1, 1);
+}
+
+footer {
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #000000;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#cdc8c8;
+  outline: 2px solid #b1adad;
+  /* background-image: url("https://image.freepik.com/free-vector/abstract-geometric-pattern-background_1319-242.jpg"); */
+  background-size: cover;
+}

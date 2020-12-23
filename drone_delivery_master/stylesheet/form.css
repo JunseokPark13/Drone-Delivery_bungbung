@@ -1,0 +1,194 @@
+.section {
+  font-family:'Nanum Gothic';
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+
+.box {
+  font-family:'Nanum Gothic';
+  text-align: center;
+  display:table;
+  background: white;
+  box-shadow: #59B48F 5px 5px;
+  border-radius: 24px;
+  margin:auto;
+  padding:20px 30px;
+}
+#boardView{
+  font-family:'Nanum Gothic';
+  text-align: center;
+  display:table;
+  width: 1000px;
+  height: 774px;
+  background: white;
+  box-shadow: #59B48F 5px 5px;
+  border-radius: 24px;
+  position: absolute;
+  left: 500px;
+  top : 150px;
+  padding:20px 30px;
+}
+
+#boardInfo{
+  font-family:'Nanum Gothic';
+  margin-left:55%;
+}
+#boardContent, #boardTitle{
+  font-family:'Nanum Gothic';
+  font-size:20px;
+  background: none;
+  display: inline-block;
+  margin: 20px auto;
+  border: 2px solid #59B48F;
+  padding: 14px 40px;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.25s;
+  cursor: pointer;
+  width : 80%;
+}
+
+#boardInfo{
+  font-family:'Nanum Gothic';
+  font-size:15px;
+  background: none;
+  display: inline-block;
+  margin-right: 700px;
+  padding: 14px 40px;
+  outline: none;
+  transition: 0.25s;
+  cursor: pointer;
+  width : 355px;
+}
+.introbox {
+  font-family:'Nanum Gothic';
+  text-align: center;
+  display:table;
+  width: 1000px;
+  height: 774px;
+  background: white;
+  box-shadow: #59B48F 5px 5px;
+  border-radius: 24px;
+  position: absolute;
+  left: 500px;
+  top : 150px;
+  padding:20px 30px;
+}
+
+
+.introbox input[type="button"], .introbox input[type="submit"]{
+  font-size:20px;
+  background: none;
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #59B48F;
+  padding: 14px 40px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.introbox input[type="text"], .introbox textarea{
+  font-size:20px;
+  background: none;
+  display: inline-block;
+  margin: 20px auto;
+  border: 2px solid #59B48F;
+  padding: 14px 40px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.introbox label{
+  font-size:20px;
+  background: none;
+  display: inline-block;
+  margin: 20px auto;
+  padding: 14px 40px;
+  outline: none;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.form-element {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size:1.5em;
+  transition: 0.3s;
+}
+
+.input input[type="text"], .input input[type="password"]{
+  border:0;
+  font-size:1em;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 30%;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.input.long-width{
+}
+
+div.input.inline-block input{
+  display:inline-block;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+  width: 40%;
+  border-color: #2ecc71;
+}
+
+.box input[type="button"], .box input[type="submit"]{
+  font-size:20px;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type="submit"]:hover, .box input[type="button"]:hover{
+  background: #2ecc71;
+}
+
+select {
+  text-align-last: center;
+  outline:0;
+  height: 50px;
+  font-family:'Nanum Gothic';
+  font-size:25px;
+  border-radius:20px;
+  transition: 0.25s;
+}
+
+select:focus{
+  background-color:rgba(200, 255, 140, 0.44);
+}
+
+#sidebar{
+  background: white;
+  box-shadow: #59B48F 3px 3px;
+  border: 24px;
+  padding:20px 30px;
+  width: 200px;
+  height: 775px;
+  float: left;
+  text-align: center;
+
+}
+.sidebaroption{
+  font-size: 25px;
+  margin : 10px;
+}

@@ -1,0 +1,25 @@
+<nav>
+  <div class ="logindiv">
+  <?php
+    if(isset($_SESSION['ID'])){
+      echo " <span class=\"login\">";
+      echo $_SESSION['ID'];
+      echo " 님 환영합니다.</span>";
+      echo " <span class=\"login\"><a href=/logout.php>로그아웃</a></span>";
+      echo " <span class=\"login\"><a href=/user/update-user.php>정보 수정</a></span>";
+    }
+    else{
+      echo " <span class=\"login\"><a href=/login.php>로그인</a></span>";
+      echo " <span class=\"login\"><a href=/join.php>회원가입</a></span>";
+    }
+    ?>
+    </div>
+    <div class ="headdiv">
+    <a href="/index.php"><img src="/images/logo.png" width = "300" height= "100"></a>
+    <span class="navigation hvr-bounce-in hvr-float-shadow "><a href="/about/business.php">기업 소개</a></span>
+    <span class="navigation hvr-bounce-in hvr-float-shadow "><a href="/about/service.html">서비스 소개</a></span>
+    <span class="navigation hvr-bounce-in hvr-float-shadow "><a href="/board/free_index.php">자유게시판</a></span>
+    <span class="navigation hvr-bounce-in hvr-float-shadow "><a href="/order/customer.php">일반 사용자</a></span>
+    <span class="navigation hvr-bounce-in hvr-float-shadow "><a href="/order/business.php">기업 사용자</a></span>
+    </div>
+</nav>
